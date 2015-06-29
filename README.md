@@ -5,6 +5,8 @@ Use `balias` instead of `alias`,you can get same completion meanwhile you set  a
 # Example
 
 ```
+import plugins/balias
+
 balias apti 'sudo apt-get install'
 balias gc   'git checkout'
 ```
