@@ -1,18 +1,36 @@
-# A better alias provide completion
+<img src="https://dl.dropboxusercontent.com/u/56336/omf/omf-logo-optimised.svg" align="left" width="144px" height="144px"/>
+
+#### Better Alias
+> Aliases with completions for [Oh My Fish][omf-link].
+
+[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
+[![Fish Shell Version](https://img.shields.io/badge/fish-v2.2.0-007EC7.svg?style=flat-square)](http://fishshell.com)
+[![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-007EC7.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
+
+<br/>
 
 Use `balias` instead of `alias`,you can get same completion meanwhile you set  alias.
 
-# Example
+## Install
 
-```
-import plugins/balias
-
-balias apti 'sudo apt-get install'
-balias gc   'git checkout'
+```fish
+$ omf install balias
 ```
 
-Then,you will get
+## Usage
 
-![apti](http://www.geekpics.net/images/2014/08/23/TJn6kfBY.png)
+```fish
+$ balias apti 'sudo apt-get install'
+$ balias gc   'git checkout'
+```
 
-![gc](http://www.geekpics.net/images/2014/08/23/655x76xcPJolvxqra.png.pagespeed.ic.4S9hgPfZ53.png)
+# License
+
+[MIT][mit] © [Bruno Ferreira Pinto][author]
+
+
+[mit]:            http://opensource.org/licenses/MIT
+[author]:         http://github.com/bpinto
+[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
+
+[license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
