@@ -1,4 +1,4 @@
-<img src="https://dl.dropboxusercontent.com/u/56336/omf/omf-logo-optimised.svg" align="left" width="144px" height="144px"/>
+<img src="https://camo.githubusercontent.com/6d5df21bea6143af7a37e1284fe110df1ab9edb6/68747470733a2f2f63646e2e7261776769742e636f6d2f6f682d6d792d666973682f6f682d6d792d666973682f653466316332653032313961313765326337343862383234303034633864306233383035356331362f646f63732f6c6f676f2e737667" align="left" width="144px" height="144px"/>
 
 #### Better Alias
 > Aliases with completions for [Oh My Fish][omf-link].
