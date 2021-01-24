@@ -1,6 +1,6 @@
 function balias --argument alias command
   eval 'alias $alias $command'
-  if expr $command : '^sudo '>/dev/null
+  if string match -q -r '^sudo ' $command
     set command (echo "$command" | cut -c6-)
   end
   complete -c $alias -xa "(
